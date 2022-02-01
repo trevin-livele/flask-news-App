@@ -2,9 +2,9 @@ from app import app
 import requests
 from .config import Config
 import os
-from .models import news_article
+from .models import news
 
-News_article = news_article.News_Article
+News_article = news.News
 
 Api_key = os.getenv('API_KEY')
 tech_base_url = app.config['TECH_CRUNCH_BASE_URL']
