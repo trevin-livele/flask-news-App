@@ -1,13 +1,7 @@
-
-from app import app
 from flask import render_template
-from .request import requests
+from app import app
 
-
-
-
-
-
+# from .request import requests
 
 
 @app.route('/')
