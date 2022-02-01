@@ -10,3 +10,7 @@ def homepage():
 
     data = requests.get(base_url).json()
     return render_template("index.html", data=[data])
+
+
+
+
