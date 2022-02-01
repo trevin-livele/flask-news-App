@@ -15,6 +15,10 @@
   </head>
   <body>
     <div class="news">
+
+
+<div class="container">
+  <div class="row">
       {% for news in data %} {% for new in news.articles%}
 
       <div class="card" style="width: 18rem">
@@ -30,7 +34,10 @@
         </div>
       </div>
 
-      {% endfor %} {% endfor%}
+      {% endfor %} 
+    </div>
+  </div>
+  {% endfor%}
     </div>
   </body>
 </html>
